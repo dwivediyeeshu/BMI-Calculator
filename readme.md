@@ -25,34 +25,5 @@ A simple and responsive **BMI Calculator** built using **HTML, CSS, and JavaScri
 
 ---
 
-## ▶️ How to Run  
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/your-username/BMI-Calculator.git
-````
-
-2. Open `index.html` in your browser
-
----
-
-## 💡 Code Core
-
-```js
-form.addEventListener("submit", e => {
-  e.preventDefault();
-  const h = parseFloat(height.value), w = parseFloat(weight.value);
-  if (!h || !w) return desc.textContent = "Enter valid inputs";
-  const bmi = (w / ((h ** 2) / 10000)).toFixed(2);
-  bmiText.textContent = bmi;
-  desc.innerHTML = `You are <strong>${
-    bmi < 18.5 ? "underweight" : bmi < 25 ? "healthy" : bmi < 30 ? "overweight" : "obese"
-  }</strong>`;
-});
-```
-
----
-
 ✨ *Part of my continuous journey to master Frontend → Full Stack → DevOps.*
-
-```
 
