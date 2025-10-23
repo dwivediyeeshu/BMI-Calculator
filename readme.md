@@ -1,8 +1,4 @@
-Sure! Here’s a **short and clean version** of your **BMI Calculator README.md** — concise, polished, and perfect for GitHub 👇
 
----
-
-````markdown
 # ⚖️ BMI Calculator
 
 A simple and responsive **BMI Calculator** built using **HTML, CSS, and JavaScript** as part of my **6-month reskilling journey** to strengthen frontend and full-stack skills.
