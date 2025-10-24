@@ -125,3 +125,49 @@ h1{
 .obese {
     color: var(--obese);
 }
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 360px;
+    padding: 0.75rem;
+    box-shadow: 0 5px 10px #00000055;
+  }
+
+  .calculator div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .calculator label {
+    flex: none;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .calculator input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .calculator button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .output #bmi {
+    font-size: 3rem;
+  }
+
+  .bmi-scale h4 {
+    font-size: 0.65rem;
+  }
+}
